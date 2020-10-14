@@ -1,7 +1,7 @@
 $.ajaxPrefilter(function (options) {
   // console.log(option.url)
   options.url = 'http://ajax.frontend.itheima.net' + options.url
-  console.log(options.url)
+  // console.log(options.url)
 
   if (options.url.indexOf('/my/') !== -1) {
     options.headers = {
